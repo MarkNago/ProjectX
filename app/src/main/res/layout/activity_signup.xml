@@ -32,6 +32,7 @@
        android:gravity="bottom">
 
        <EditText
+           android:id="@+id/textName"
            android:layout_width="match_parent"
            android:layout_height="wrap_content"
            android:hint="Name"
@@ -52,6 +53,7 @@
            android:background="#494949"/>
 
        <EditText
+           android:id="@+id/textEmailSingIn"
            android:layout_width="match_parent"
            android:layout_height="wrap_content"
            android:hint="Email"
@@ -71,6 +73,7 @@
            android:layout_marginTop="4dp"
            android:background="#494949"/>
        <EditText
+           android:id="@+id/textPasswordSignIn"
            android:layout_width="match_parent"
            android:layout_height="wrap_content"
            android:hint="Password"
